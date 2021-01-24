@@ -6,9 +6,9 @@ const youOrMe = ['You are ', 'I am '];
 const midWord = ['loved', 'successful', 'okay', 'happy', 'wanted', 'cared for', 'funny'];
 
 const advice = [', so start paying attention to the people who matter.', 
-'; no small thing can bring you down',
-'; sit down and take a breather if you have to',
-'; they can wait, you come first']
+', so no small thing can bring down this day',
+'; sit down and take a breather if it\'s needed',
+'; they can wait sometimes']
 
 function sentenceGen () {
     let choice1 = Math.floor(Math.random() * youOrMe.length);
