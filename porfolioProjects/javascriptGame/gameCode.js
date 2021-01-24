@@ -63,4 +63,4 @@ function chooseMessage() {
     return messageArray[num];
 }
 
-console.log(chooseMessage);
+console.log(chooseMessage());
