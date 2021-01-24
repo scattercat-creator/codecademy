@@ -56,3 +56,11 @@ function chooseGoodVibes() {
         return goodVibesHappy;
     }
 }
+
+function chooseMessage() {
+    const messageArray = chooseGoodVibes();
+    let num = Math.floor(Math.random() * 15);
+    return messageArray[num];
+}
+
+console.log(chooseMessage);
